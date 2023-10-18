@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "368d7200-0a72-4800-84ab-7d4ca403a1b5",
+		"name": "test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28406104",
+		"_collection_link": "https://bold-star-223103.postman.co/workspace/New-Team-Workspace~d8c2eb09-5853-418c-93e1-2e45f17c6dcf/collection/28406104-368d7200-0a72-4800-84ab-7d4ca403a1b5?action=share&source=collection_link&creator=28406104"
+	},
+	"item": [
+		{
+			"name": "calcular liquidacion",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"tipo_identificacion\": 1,\r\n    \"nro_identificacion\": 79000003,\r\n    \"valor_asegurado\": 59600254.23\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/liquidation",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"liquidation"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
